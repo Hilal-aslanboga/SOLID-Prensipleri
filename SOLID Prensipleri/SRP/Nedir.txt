@@ -1,0 +1,6 @@
+﻿
+Single Responsibility Prenciple (Tek Sorumluluk Prensibi)
+
+Bir sınıfın sadece bir sorumluluğu olmasını savunan bir ilkedir. Yani bir sınıfın sadece bir işi bir amacı  olmalıdır. Sınıf içersine birden çok iş yüklediğimiz takdirde değişiklik yapmak zorunda kalındığında ona bağlı tüm sınıflar bundan etkilenir. Bu durumda prensibe ters düşmüş oluruz.
+Bütün işleri ve değişiklikleri yapan tek bir sınıf olursa extend edilmek istendiğinde sınıfın bakımı onarımı ve geliştirme süreçleri maliyetli olacaktır.
+Alt sınıflara veya modüllere gerekli bütün işleri küçük parçalar halinde ilgili sınıflara dağıtırsak bu prensibe uymuş oluruz.

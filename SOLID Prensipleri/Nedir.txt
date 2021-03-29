@@ -1,0 +1,4 @@
+﻿
+Bu projemizde SOLID Prensiplerine deyineceğim. İlk olarak SOLID nedir ile başlayalım.
+SOLID geliştirilen yazılımın esnek, yeniden kullanılabilir, sürdürülebilir ve anlaşılır olmasını sağlayan kod tekrarını önleyen prensiptir.
+Amacı ise gelecek nesillere kolay adapte olması, yeni özellikleri kodda değişiklik yapmadan eklenebilmesi ve kodda en az değişiklik yapmayı sağlamasıdır.
