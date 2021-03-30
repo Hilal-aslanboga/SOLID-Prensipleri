@@ -1,0 +1,6 @@
+﻿
+Liskov Substitution Prenciple (Yer Değiştirme Prensibi)
+
+Türetilmiş, instance sınıflar yada alt sınıflar, temel veya ata sınıflar ile yer değiştirebilir olmalıdır.
+
+Bir alt sınıfın atası olan bir sınıf kalıtım alırken içersindeki tüm üyeleri değişiklik yapmadan aynı olması gerekmektedir. İçerinde ovirride ediceğim bir method olamaz. Ata sınıfın tüm üyeleri ile alt sınıfın üyeleri yer değiştirebilir durumada olmasını savunan bir ilkedir.

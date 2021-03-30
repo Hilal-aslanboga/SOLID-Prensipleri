@@ -1,0 +1,7 @@
+﻿
+Interface Segregation Prenciple (Arayüz Ayrıştırma Prensibi)
+
+Herhangi bir alt sınıf gereksiz yetenek ve özellikler kazanacağı bir soyut atadan kalıtım almamalıdır.
+Hiçbir concrete sınıf kendisiyle ilgisi olmayan bir interface den kalıtım almamalıdır. 
+
+Yetenek ve özelliklerle dolu bir interface sınıfı düzüşenlim. Bu interface den kalıtım alan alt sınıflar olsun. Alt sınıfımın ihtiyacı olmayan özellikler interface den otomatik olarak aktarılacaktır. Bu yüzünden ISP ters düşmüş oluruz. Tek bir interface yerine ihtiyacım olan interfaceler oluşturup ilgili alt sınıflara aktarmak daha mantıklıdır.

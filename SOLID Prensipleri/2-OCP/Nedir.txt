@@ -1,0 +1,9 @@
+﻿
+Open & Close Prenciple (Açma Kapama Prensibi)
+
+Uygulamadaki varlıklarımız (entities) genişlemeye açık değişikliklere kapalı olmasını savunan bir ilkedir.
+Yeni bir sınıf açmak istendiği zaman var olan sınıflarda değişiklik yapmadan yeni sınıfın açılmasını isteyen prensiptir.
+Sınıf içersinde yeni yetenek veya iş eklemek istenildiği zaman sınıf içersindeki üyelerde değişiklik yapmadan istenilen özellikleri sınıflara kazandırmak ister.
+Bir sınıfı değişikliğe kapatmak istersek o sınıfı soyutlamaya bağlamak gerekir.
+
+
