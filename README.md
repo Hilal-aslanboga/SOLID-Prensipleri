@@ -16,25 +16,25 @@ Bu ilkede, tüm sınıfların ve tüm yöntemlerin tek bir sorumluluğu olmalıd
 2. Bu iş bu yönteme / sınıfa mı ait?
 Bu ilke için projede örnekler verdim.
 
-### Open Closed Principle
+### [Open Closed Principle](https://github.com/Hilal-aslanboga/SOLID-Prensipleri/tree/master/SOLID%20Prensipleri/2-OCP)
 
 Bu ilke, sınıfın kolayca genişletilmesi gerektiğini, ancak temel uygulamalarını değiştirmeye gerek olmadığını önermektedir. "Sınıflar değiştirilemez, ancak diğer yandan Sınıflar iyileştirmeye / gelişmeye açık olmalıdır.
 Uygulama veya yazılım esnek olmalıdır. Bir sistemde değişim yönetiminin nasıl uygulandığı, o uygulamanın / yazılımın başarısı üzerinde önemli bir etkiye sahiptir. OCP, sistemin davranışlarının mevcut uygulamasını değiştirmek zorunda kalmadan genişletilebileceğini belirtir.
 
-###  Liskov Substitution Principle
+###  [Liskov Substitution Principle](https://github.com/Hilal-aslanboga/SOLID-Prensipleri/tree/master/SOLID%20Prensipleri/3-LSP)
 
 Robert C. Martin'in tanımı: Temel sınıflara işaretçiler veya referanslar kullanan işlevler, türetilmiş sınıfların nesnelerini bilmeden kullanabilmelidir.
 Liskov ikame ilkesi (LSP), başlangıçta Barbara Liskov tarafından Veri soyutlama ve hiyerarşi başlıklı 1987 konferans açılış konuşmasında tanıtılan, (güçlü) davranışsal alt tipleme olarak adlandırılan bir alt tipleme ilişkisinin bir tanımıdır. LSP, alt sınıfın kendi ebeveyn sınıfı için mükemmel şekilde ikame edilebilir olması gerektiğini belirtir. C sınıfı P'den türetilmişse, C, P'nin yerine geçebilir.
 Kodumuzda mirasın doğru uygulanıp uygulanmadığını LSP kullanarak kontrol edebiliriz.
 LSP, SOLID Prensiplerinin temel bir ilkesidir ve program veya modül temel sınıf kullanıyorsa, türetilmiş sınıfın orijinal uygulamalarını değiştirmeden temel sınıflarını genişletebilmesi gerektiğini belirtir.
 
-### Interface Segregation Principle
+### [Interface Segregation Principle](https://github.com/Hilal-aslanboga/SOLID-Prensipleri/tree/master/SOLID%20Prensipleri/4-ISP)
 
 Hiçbir müşteri kullanmadığı yöntemleri uygulamaya zorlanmamalı ve sözleşmeler ince olanlara bölünmelidir.
 ISP, ilk olarak Robert C. Martin tarafından Xerox'a danışılırken kullanıldı ve formüle edildi. Arayüz ayırma prensibi, uygulamanın tasarım problemini çözmek için gereklidir. Tüm görevler tek bir sınıf tarafından yapıldığında veya başka bir deyişle, hemen hemen tüm uygulama sınıflarında bir sınıf kullanıldığında, aşırı yüklü bir şişman sınıf haline gelmiştir. Böyle bir sınıfın devralınması, türetilmiş sınıflarla ilgili olmayan paylaşım yöntemlerine sahip olmakla sonuçlanacaktır, ancak bu, türetilmiş sınıfta miras alacak şekilde temel sınıftadır.
 ISP kullanarak, aynı işi yapacak tek bir sınıfa sahip olmak yerine her işlem veya gereksinim için ayrı arayüzler oluşturabiliriz.
 
-### Dependency Inversion Principle
+### [Dependency Inversion Principle](https://github.com/Hilal-aslanboga/SOLID-Prensipleri/tree/master/SOLID%20Prensipleri/5-DIP)
 
 Bu ilke, bileşenler arasındaki bağımlılıklar ile ilgilidir. DIP'nin tanımı Robert C. Martin tarafından aşağıdaki gibidir:
 1-Yüksek seviyeli modüller, düşük seviyeli modüllere bağlı olmamalıdır. Her ikisi de soyutlamalara bağlı olmalıdır.
