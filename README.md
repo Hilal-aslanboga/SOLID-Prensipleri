@@ -1,0 +1,3 @@
+## Yazılım Prensipleri
+
+##### SOLID-Prensipleri
