@@ -1,0 +1,6 @@
+﻿
+Dependency Inversion Prenciple(Bağımlılığı Ters Çevirme Prensibi)
+
+DIP ilkesi bizelere, üst yada alt seviyeli olsun her hangi bir sınıfın soyutlamalara bağlı olmasını söylemektedir. Bu soyutlama işlemi DIP prensibine uyulmasındaki ilk adımdım. DIP ve IoC prensiplerinin arkasınd ayatan ana fikir özünde bir birlerine az bağımlı (loose cuple) sınıflar elde etmektir ve bu az bağımlı sınıfları elde etmek istiyorsak atmamız gereken ilk adım seviyesi ne olursa olsun sınıflarımızı soyutlamalara bağlamaktır. 
+
+Yüksek seviyeli sınıflar yada modüller düşük seviyeli sınıf yada modüllere sıkı sıkıya bağlımlı olmaması gerektiğini yani bir birleri içerisinde new anahtar sözcüğü ile referance etmemeli bir birlerine bağımlı olmamaları gerektiğini ve bütun bu sınıfların soyutlamalara bağlı olması ve ilgili sınıfa ihtiyaç duyduğumuz yerde örneklemini çıkarmak yerine soyut olan atasının inject edilmesi gerektiğini söyleyen ilkedir.

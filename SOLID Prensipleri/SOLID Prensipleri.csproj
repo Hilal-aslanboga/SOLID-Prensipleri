@@ -67,6 +67,13 @@
     <Compile Include="4-ISP\GoodExample\Interface\IBrakable.cs" />
     <Compile Include="4-ISP\GoodExample\Interface\IFlyable.cs" />
     <Compile Include="4-ISP\GoodExample\Interface\IRunnable.cs" />
+    <Compile Include="5-DIP\BadExample\BadDelicatessenProducts.cs" />
+    <Compile Include="5-DIP\BadExample\BadMarket.cs" />
+    <Compile Include="5-DIP\BadExample\BadCleaningProducts.cs" />
+    <Compile Include="5-DIP\GoodExample\Abstarct\SortingInstruction.cs" />
+    <Compile Include="5-DIP\GoodExample\Concrete\CleaningProducts.cs" />
+    <Compile Include="5-DIP\GoodExample\Concrete\DelicatessenProducts.cs" />
+    <Compile Include="5-DIP\GoodExample\Concrete\Market.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +113,7 @@
     <Content Include="2-OCP\Nedir.txt" />
     <Content Include="3-LSP\Nedir.txt" />
     <Content Include="4-ISP\Nedir.txt" />
+    <Content Include="5-DIP\Nedir.txt" />
     <Content Include="Nedir.txt" />
     <Content Include="1-SRP\Nedir.txt" />
   </ItemGroup>
