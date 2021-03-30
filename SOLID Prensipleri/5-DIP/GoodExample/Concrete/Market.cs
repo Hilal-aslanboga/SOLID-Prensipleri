@@ -18,7 +18,7 @@ namespace SOLID_Prensipleri._5_DIP.GoodExample.Concrete
             string instruction = string.Empty;
 
             foreach (var item in sortingList)
-            
+
                 instruction += " " + item.GetSortingInstruction();
 
                 return instruction;
