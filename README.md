@@ -9,7 +9,7 @@ Yeni özellikleri kodda bir değişikliğe gerek kalmadan kolayca ekleyebileceğ
 Yeni gereksinimlere karşın kodun üzerinde en az değişimi sağlaması,
 Kod üzerinde sürekli düzeltme hatta yeniden yazma gibi sorunların yol açtığı zaman kaybını da minimuma indirmektir.
 
-### Single  Responsibility Principle
+### [Single  Responsibility Principle](https://github.com/Hilal-aslanboga/SOLID-Prensipleri/tree/master/SOLID%20Prensipleri/1-SRP)
 
 Bu ilkede, tüm sınıfların ve tüm yöntemlerin tek bir sorumluluğu olmalıdır. Yani, bu ilkede ana nokta "Sadece bir iş yapın ve en iyisi olun". Aksi takdirde kodumuz spagetti kodları ve okumaya çalışırken diğerleri olacaktır. kodumuz karmaşık olabilir. Bu ilkeye uygun şekilde uymak için; proje başlamadan önce iki soru soruyoruz?
 1. Bu yöntem bu sınıfta olmalı mı?
