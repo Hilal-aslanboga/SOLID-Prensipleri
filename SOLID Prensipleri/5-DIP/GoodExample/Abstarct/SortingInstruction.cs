@@ -9,5 +9,6 @@ namespace SOLID_Prensipleri._5_DIP.GoodExample.Abstarct
     public abstract class SortingInstruction
     {
         public abstract string GetSortingInstruction();
+
     }
 }

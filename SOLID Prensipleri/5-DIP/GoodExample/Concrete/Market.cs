@@ -22,7 +22,7 @@ namespace SOLID_Prensipleri._5_DIP.GoodExample.Concrete
                 instruction += " " + item.GetSortingInstruction();
 
             return instruction;
-            
+
         }
     }
 }

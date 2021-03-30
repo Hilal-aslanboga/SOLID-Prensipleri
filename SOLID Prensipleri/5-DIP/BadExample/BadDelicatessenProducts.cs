@@ -8,6 +8,6 @@ namespace SOLID_Prensipleri._5_DIP.BadExample
 {
     public class BadDelicatessenProducts
     {
-        public string BadDelicatessenProductsSortingInstruction()=> "Bad delicatessen product sorting instruction";
+        public string BadDelicatessenProductsSortingInstruction() => "Bad delicatessen product sorting instruction";
     }
 }
